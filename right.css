@@ -1,0 +1,29 @@
+.container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 4rem;
+  border-radius: 2.5rem;
+}
+
+.container-right__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-label {
+  display: flex;
+  align-self: center;
+}
+
+/* button */
+.button-right {
+  position: relative;
+  align-items: center;
+}
+
+.btn-right__reset {
+  position: relative;
+  width: 100%;
+}

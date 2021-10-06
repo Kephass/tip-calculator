@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/left.css" />
+    <link rel="stylesheet" href="/right.css" />
+    <script src="/index.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Tip calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-section">
+        <img class="logo-section__logo" src="/images/logo.svg" alt="logo" />
+      </div>
+      <div class="container-tip__group">
+        <div class="container-left">
+          <div class="mt-2 container-left__bill">
+            <span class="label text-gray">Bill</span>
+            <br />
+            <input
+              type="number"
+              class="container-left__input bg-light-gray bill"
+              id="bill"
+              placeholder="$"
+            />
+          </div>
+          <div class="mt-2 container-left__tip">
+            <span class="label text-gray">Select Tip %</span>
+            <br />
+            <div class="container-left__tip-row">
+              <input
+                type="button"
+                class="btn bg-dark-cyan text-light-cyan btn-5"
+                value="5%"
+              />
+              <input
+                type="button"
+                class="btn bg-dark-cyan text-light-cyan btn-10"
+                value="10%"
+              />
+              <input
+                type="button"
+                class="btn bg-strong-cyan text-dark-cyan btn-15"
+                value="15%"
+              />
+            </div>
+            <div class="container-left__tip-row">
+              <input
+                type="button"
+                class="btn bg-dark-cyan text-light-cyan btn-25"
+                value="25%"
+              />
+              <input
+                type="button"
+                class="btn bg-dark-cyan text-light-cyan btn-50"
+                value="50%"
+              />
+              <input
+                type="button"
+                class="btn bg-light-gray text-dark-cyan btn-custom"
+                value="Custom"
+              />
+            </div>
+          </div>
+          <div class="mt-2 container-left__people">
+            <span class="label text-gray">Number of People</span>
+            <br />
+            <input
+              type="text"
+              class="container-left__input bg-light-gray num"
+              id="num"
+              placeholder="👤"
+            />
+          </div>
+        </div>
+        <div class="bg-dark-cyan container-right">
+          <div class="right-info">
+            <div class="container-right__info">
+              <span class="right-label text-gray"
+                >Total Amount<br />/ person</span
+              >
+              <span class="tip-amount text-big text-strong-cyan">$4.27</span>
+            </div>
+            <div class="container-right__info mt-3">
+              <span class="right-abel total-person text-gray">
+                Total<br />/ person
+              </span>
+              <span
+                class="
+                  total-amount__person
+                  amount-person
+                  text-big text-strong-cyan
+                "
+              >
+                $37.46
+              </span>
+            </div>
+          </div>
+          <div class="button-right">
+            <button class="btn btn-right__reset text-dark-cyan bg-strong-cyan">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Felix Oduro</a>.
+      </div>
+    </footer>
+  </body>
+</html>

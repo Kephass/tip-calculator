@@ -1,0 +1,35 @@
+.container-left {
+  width: 50%;
+  position: relative;
+  padding: 2rem;
+  border-radius: 2.5rem;
+}
+
+.container-left__bill {
+  position: relative;
+  width: 100%;
+}
+
+.container-left__input {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding: 1rem 0rem;
+  font-size: 1.4rem;
+  border: none;
+}
+
+.container-left__tip-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.7rem 0 1rem 0;
+}
+
+.btn-dark__cyan {
+  background-color: #00494c;
+}
+
+.btn-light__cyan {
+  background-color: #26c0ab;
+}
