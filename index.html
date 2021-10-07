@@ -38,34 +38,34 @@
             <div class="container-left__tip-row">
               <input
                 type="button"
-                class="btn bg-dark-cyan text-light-cyan btn-5"
+                class="btn btn-tip bg-dark-cyan text-light-cyan btn-5"
                 value="5%"
               />
               <input
                 type="button"
-                class="btn bg-dark-cyan text-light-cyan btn-10"
+                class="btn btn-tip bg-dark-cyan text-light-cyan btn-10"
                 value="10%"
               />
               <input
                 type="button"
-                class="btn bg-strong-cyan text-dark-cyan btn-15"
+                class="btn btn-tip bg-strong-cyan text-dark-cyan btn-15"
                 value="15%"
               />
             </div>
             <div class="container-left__tip-row">
               <input
                 type="button"
-                class="btn bg-dark-cyan text-light-cyan btn-25"
+                class="btn btn-tip bg-dark-cyan text-light-cyan btn-25"
                 value="25%"
               />
               <input
                 type="button"
-                class="btn bg-dark-cyan text-light-cyan btn-50"
+                class="btn btn-tip bg-dark-cyan text-light-cyan btn-50"
                 value="50%"
               />
               <input
                 type="button"
-                class="btn bg-light-gray text-dark-cyan btn-custom"
+                class="btn btn-tip bg-light-gray text-dark-cyan btn-custom"
                 value="Custom"
               />
             </div>
@@ -74,9 +74,9 @@
             <span class="label text-gray">Number of People</span>
             <br />
             <input
-              type="text"
-              class="container-left__input bg-light-gray num"
-              id="num"
+              type="number"
+              class="container-left__input bg-light-gray num-people"
+              id="num-people"
               placeholder="👤"
             />
           </div>
@@ -87,7 +87,7 @@
               <span class="right-label text-gray"
                 >Total Amount<br />/ person</span
               >
-              <span class="tip-amount text-big text-strong-cyan">$4.27</span>
+              <span class="tip-amount text-big text-strong-cyan">$0.00</span>
             </div>
             <div class="container-right__info mt-3">
               <span class="right-abel total-person text-gray">
@@ -100,14 +100,16 @@
                   text-big text-strong-cyan
                 "
               >
-                $37.46
+                $0.00
               </span>
             </div>
           </div>
           <div class="button-right">
-            <button class="btn btn-right__reset text-dark-cyan bg-strong-cyan">
-              RESET
-            </button>
+            <input
+              type="button"
+              class="btn btn-right__reset text-dark-cyan bg-strong-cyan"
+              value="RESET"
+            />
           </div>
         </div>
       </div>

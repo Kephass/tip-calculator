@@ -74,7 +74,6 @@ body {
   width: 60%;
   max-width: 1440px;
   display: flex;
-  flex-direction: row;
   margin: 0 auto;
   padding: 2rem;
   box-sizing: border-box;
@@ -94,6 +93,7 @@ body {
   border-radius: 0.5rem;
   padding: 1rem;
   border: none;
+  cursor: pointer;
 }
 
 /*  FOOTER  */
