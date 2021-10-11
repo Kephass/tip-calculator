@@ -75,7 +75,9 @@ body {
 }
 
 .container-tip__group {
+  width: 60%;
   max-width: 1440px;
+  position: relative;
   display: flex;
   flex: 1;
   margin: 0 auto;
@@ -121,6 +123,12 @@ footer {
   }
 
   .container-right {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .container-tip__group {
     width: auto !important;
   }
 }

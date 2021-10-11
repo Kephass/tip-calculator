@@ -1,6 +1,5 @@
 .container-left {
   flex: 1;
-  position: relative;
   padding: 2rem;
   border-radius: 2.5rem;
 }
