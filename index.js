@@ -17,23 +17,34 @@ const init = () => {
   }
 };
 
+// On ENTER key press
 document.addEventListener("keyup", (event) => {
   if (event.key === "Enter") init();
 });
 
+// Bill input event handler
 bill.addEventListener("focusout", (event) => {
   init();
   return bill.value;
 });
 
+// Tip input event handler
 tip.forEach(function (e) {
   e.addEventListener("click", (event) => {
-    tipRate = parseInt(e.value);
-    console.log(e.value);
-    init();
+    if (e.value === "Custom") {
+      const customInput = +prompt("Enter your custom tip rate.");
+      console.log(customInput);
+      tipRate = customInput;
+      init();
+    } else {
+      tipRate = parseInt(e.value);
+      console.log(e.value);
+      init();
+    }
   });
 });
 
+// Number of people input event handler
 numPeople.addEventListener("focusout", init);
 
 // function to calculate bill rate

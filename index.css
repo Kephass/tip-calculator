@@ -29,6 +29,10 @@ body {
   background-color: #26c0ab;
 }
 
+.bg-strong-cyan:hover {
+  background-color: #18dec4;
+}
+
 .bg-dark-cyan {
   background-color: #00494d;
 }
@@ -71,9 +75,9 @@ body {
 }
 
 .container-tip__group {
-  width: 60%;
   max-width: 1440px;
   display: flex;
+  flex: 1;
   margin: 0 auto;
   padding: 2rem;
   box-sizing: border-box;
@@ -107,4 +111,16 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/*  media queries  */
+
+@media screen and (max-width: 640px) {
+  .container-tip__group {
+    display: block;
+  }
+
+  .container-right {
+    width: auto !important;
+  }
 }

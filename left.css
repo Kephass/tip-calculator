@@ -1,5 +1,5 @@
 .container-left {
-  width: 50%;
+  flex: 1;
   position: relative;
   padding: 2rem;
   border-radius: 2.5rem;
@@ -19,6 +19,10 @@
   border: none;
 }
 
+.container-left__input:hover {
+  background-color: #dce6e6;
+}
+
 .container-left__tip-row {
   width: 100%;
   display: flex;
@@ -32,4 +36,8 @@
 
 .btn-light__cyan {
   background-color: #26c0ab;
+}
+
+.btn-tip:hover {
+  filter: brightness(120%);
 }
