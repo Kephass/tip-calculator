@@ -30,6 +30,9 @@
               class="container-left__input bg-light-gray bill"
               id="bill"
               placeholder="$"
+              min="1"
+              max="99999"
+              onkeyup="if(this.value < 0) this.value = this.value * -1"
             />
           </div>
           <div class="mt-2 container-left__tip">
@@ -78,6 +81,9 @@
               class="container-left__input bg-light-gray num-people"
               id="num-people"
               placeholder="👤"
+              min="1"
+              max="999"
+              onkeyup="if(this.value < 0) this.value = this.value * -1"
             />
           </div>
         </div>

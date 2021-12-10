@@ -16,6 +16,7 @@
   padding: 1rem 0rem;
   font-size: 1.4rem;
   border: none;
+  text-align: end;
 }
 
 .container-left__input:hover {
